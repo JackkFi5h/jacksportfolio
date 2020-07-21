@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\pages",
+    "\\_data",
+    "\\_data\\blog"
   ],
   "PreviewInSolutionExplorer": false
 }
