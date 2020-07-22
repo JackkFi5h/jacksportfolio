@@ -11,7 +11,7 @@ tags:
 ---
 # Monstars
 
-Erin stil kinda cute doe <3
+Erin cassingham stil kinda cute doe <3
 
 
 ```c#
