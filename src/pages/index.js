@@ -27,7 +27,7 @@ const IndexPage = ({
       <h2>
         Background
       </h2>
-      <description>I'm an independent developer currently based in <b>Dorset, UK</b>. I have been making games since the age of 13 with most
+      <description>I'm an independent developer currently based in <b>Dorset, UK</b>. I have been making games since the age of 14 with most
       my knowledge aquired from developing prototypes within the unity engine. I have since dabbled in other forms of software development,
       creating my fitness app <b>FisherFitnessPal</b> for mobile devices using the Xamarin framework. I find myself frequently tackling game mechanics that fascinate me 
       such as procedural generation and how it can be used to create realistic voxel landscapes, as well as adding multiplayer functionality (as can be seen in my upcoming 
