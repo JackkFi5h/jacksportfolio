@@ -1,17 +1,18 @@
 ---
 template: BlogPost
-path: /remark-kitchen-sink
+path: /fisher-fitness-pal
 date: 2020-02-21T12:12:25.364Z
-title: 'Monstars'
-thumbnail: /assets/monstarsThumbnail.png
+title: 'FisherFitnessPal'
+thumbnail: /assets/fisherFitnessPalThumbnail.png
 metaDescription: 'test'
 tags:
 - C#
-- Unity
+- Xamarin
+- Android
 ---
-# Monstars
+# FisherFitnessPal
 
-Erin kinda cute doe <3
+fitness go dank
 
 ```c#
 var foo => (bar) {

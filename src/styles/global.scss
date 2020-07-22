@@ -115,6 +115,17 @@ a {
   font-weight: 900;
   margin-bottom: 0.5rem;
 }
+/*.badge{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}*/
 .button {
   padding: 18px 27px;
   display: inline-block;
@@ -208,6 +219,17 @@ a {
     margin-bottom: 0;
   }
 }
+ul.post-tags
+{
+  padding:0;
+  display: inline-flex;
+  list-style: none;
+
+  li{
+    margin-right: 10px;
+    
+  }
+}
 .grids {
   display: grid;
   grid-template-columns: 1fr;
@@ -225,14 +247,19 @@ a {
   &:hover .post-link {
     color: var(--primary-color);
   }
-  > a img {
-    display: block;
-  }
   > header {
     padding: 24px;
   }
   > h2:first-child {
     margin: 0 0 0.5rem 0;
+  }
+  .post-image
+  {
+    object-fit: cover;
+    background-position: center center;
+    max-height: 160px;
+    width: 100%;
+
   }
   .post-title {
     font-size: 1.2rem;
@@ -259,6 +286,7 @@ a {
     font-weight: 700;
   }
 }
+
 .form-container {
   background-color: var(--contact-bg);
   padding: 32px;
