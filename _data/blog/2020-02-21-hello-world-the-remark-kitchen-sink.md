@@ -7,7 +7,7 @@ thumbnail: /assets/monstarsThumbnail.png
 ---
 # Monstars
 
-Syntax highlighting
+Erin kinda cute doe <3
 
 ```c#
 var foo => (bar) {
