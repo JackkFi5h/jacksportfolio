@@ -224,11 +224,13 @@ ul.post-tags
   padding:0;
   display: inline-flex;
   list-style: none;
-
+  --bgCol: red;
+  //background-color: var(--bgCol);
   li{
     margin-right: 10px;
     
   }
+
 }
 .grids {
   display: grid;
@@ -273,6 +275,42 @@ ul.post-tags
     color: var(--text-color);
     text-decoration: none;
   }
+}
+.post-button-c
+{
+  background-color: aquamarine;
+  border: none;
+  color: black;
+  padding: 0px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.post-button-xamarin
+{
+  background-color: blueviolet;
+  border: none;
+  color: black;
+  padding: 0px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.post-button-unity
+{
+  background-color: lightblue;
+  border: none;
+  color: black;
+  padding: 0px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
 }
 .post-meta {
   font-size: 0.8rem;

@@ -19,7 +19,8 @@ const PostLink = ({ post }) => (
       <ul className="post-tags">
         {post.frontmatter.tags.map(tag =>(
         <li>
-          <Badge color="success">{tag}</Badge>
+          <div className = {tag == 'C#' ? 'post-button-c ': tag == 'Xamarin' ? 'post-button-xamarin' : 'post-button-unity'}>
+            {tag}</div>
         </li>
         ))}
       </ul>
@@ -27,4 +28,6 @@ const PostLink = ({ post }) => (
     </header>
   </article>
 )
+
+
 export default PostLink
