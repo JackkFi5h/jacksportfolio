@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { Badge } from 'reactstrap'
 import {slugify} from '../util/utilityFunctions'
-
+import { color} from '../util/utilityColorTag'
 const PostLink = ({ post }) => (
   <article className="card ">
     <Link to={post.frontmatter.path}>
@@ -19,7 +19,7 @@ const PostLink = ({ post }) => (
       <ul className="post-tags">
         {post.frontmatter.tags.map(tag =>(
         <li>
-          <div className = {tag == 'C#' ? 'post-button-c ': tag == 'Xamarin' ? 'post-button-xamarin' : 'post-button-unity'}>
+          <div className = {color(tag)}>
             {tag}</div>
         </li>
         ))}

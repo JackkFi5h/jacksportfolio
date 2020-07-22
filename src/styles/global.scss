@@ -276,31 +276,59 @@ ul.post-tags
     text-decoration: none;
   }
 }
-.post-button-c
+.tags-android
+{
+  background-color: limegreen;
+  border: none;
+  color: black;
+  padding: 0px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
+  color: white;
+}
+.tags-csharp
 {
   background-color: aquamarine;
   border: none;
   color: black;
-  padding: 0px 2px;
+  padding: 0px 4px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   border-radius: 8px;
+  color: black;
 }
-.post-button-xamarin
+.tags-xamarin
 {
   background-color: blueviolet;
   border: none;
   color: black;
-  padding: 0px 2px;
+  padding: 0px 4px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   border-radius: 8px;
+  color: white;
 }
-.post-button-unity
+.tags-unity
+{
+  background-color: gainsboro;
+  border: none;
+  color: black;
+  padding: 0px 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 8px;
+  color: black;
+}
+.tags-base
 {
   background-color: lightblue;
   border: none;
@@ -311,6 +339,7 @@ ul.post-tags
   display: inline-block;
   cursor: pointer;
   border-radius: 8px;
+  color: white;
 }
 .post-meta {
   font-size: 0.8rem;

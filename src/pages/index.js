@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
 
+
+
 const IndexPage = ({
   data: {
     site,
@@ -31,7 +33,7 @@ const IndexPage = ({
       my knowledge aquired from developing prototypes within the unity engine. I have since dabbled in other forms of software development,
       creating my fitness app <b>FisherFitnessPal</b> for mobile devices using the Xamarin framework. I find myself frequently tackling game mechanics that fascinate me 
       such as procedural generation and how it can be used to create realistic voxel landscapes, as well as adding multiplayer functionality (as can be seen in my upcoming 
-      title <b>Monstars</b>). Due to the nature of being an indie developer, I have also learn't how to model, texture and animate anything 
+      title <b>Monstars</b>). Due to the nature of being an indie developer, I have also learnt how to model, texture and animate anything 
       required for the games I create, which helps make my gameplay design choices well grounded as I am able to think about the bigger picture.</description>
       </div>
       <br></br>
