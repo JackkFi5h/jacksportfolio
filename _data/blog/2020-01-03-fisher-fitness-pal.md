@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /fisher-fitness-pal
-date: 2020-02-21T12:12:25.364Z
+date: 2020-03-23T12:12:25.364Z
 title: 'FisherFitnessPal'
 thumbnail: /assets/fisherFitnessPalThumbnail.png
 metaDescription: 'test'

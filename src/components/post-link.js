@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Button, Badge } from 'reactstrap'
+import { Badge } from 'reactstrap'
 import {slugify} from '../util/utilityFunctions'
 
 const PostLink = ({ post }) => (
@@ -19,7 +19,7 @@ const PostLink = ({ post }) => (
       <ul className="post-tags">
         {post.frontmatter.tags.map(tag =>(
         <li>
-          <Badge color={"success"}>{tag}</Badge>
+          <Badge color="success">{tag}</Badge>
         </li>
         ))}
       </ul>
