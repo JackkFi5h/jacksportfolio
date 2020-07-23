@@ -12,14 +12,9 @@ tags:
 ---
 # FisherFitnessPal
 
-fitness go dank
+FisherFitnessPal is my very own fitness app, originally developed for my college coursework, it is my first fully fledged mobile application that encompasses a variety of fitness and dietary tracking functionalities. It was built in around 3 months using Xamarin Forms and has been extensively documented as required for my coursework.
 
-```c#
-var foo => (bar) {
-  bar++;
-};
-
-Debug.Log(foo(5));
-```
+#Link
+[https://drive.google.com/file/d/1iVMKtxMRiI9cwQALvAcNH1z4ncEgsVTA/view?usp=sharing](https://drive.google.com/file/d/1iVMKtxMRiI9cwQALvAcNH1z4ncEgsVTA/view?usp=sharing)
 
 
