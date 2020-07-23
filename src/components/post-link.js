@@ -17,7 +17,9 @@ const PostLink = ({ post }) => (
         </Link>
       </h2>
       <ul className="post-tags">
-        {post.frontmatter.tags.map(tag =>(
+        {post.frontmatter.tags
+        .filter(tag => !!tag)
+        .map(tag =>(
         <li>
           <div className = {color(tag)}>
             {tag}</div>
