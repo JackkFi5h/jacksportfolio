@@ -4,6 +4,7 @@ path: /minecraft-clone
 date: 2019-03-11T12:12:25.364Z
 title: 'CubeWorld Clone'
 thumbnail: /assets/cubeworldCloneThumbnail.jpg
+pagephoto: /assets/cubeworldCloneThumbnail.jpg
 metaDescription: 'test'
 tags:
 - C#

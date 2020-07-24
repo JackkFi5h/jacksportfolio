@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Made by <a href="https://w3layouts.com">Jack Fisher</a></p>
+        <p>&copy; {new Date().getFullYear()} Made by <b>Jack Fisher</b></p>
       </footer>
     </div>
   )
