@@ -35,6 +35,9 @@ for(x=0; x < 16; x++)
 }
 
 ```
+---
+##3D Noise
+
  However this lead to some boring terrain as with 2d perlin noise you are limited to a 'rolling-hills' style terrain where any voxel in the world space can only be manipulated by noise values on the y (up) axis. This isn't what is seen in Minecraft and more specifically cube world, where caves and overhangs can be found everywhere. This led me onto using 3d perlin noise to layer another 2d perlin noise as a 'density' value, if this value was above a threshold at that cubes worldspace co-ordinate.
 
 ```csharp
@@ -107,6 +110,8 @@ public static float Get3DNoise(float x, float y, float z, float sm, int oct)
 ```
 This was the result of using 3d noise, as you can see "overhangs" are now being generated which opens a lot of possibilities for realistic terrain such as caves.
 !["cliff"](assets/cwCliff.jpg)
+
+##Vertex Shading
 
 Another thing I implemented was the ability to use vertex shading on the grass to give the terrain a different colour depending on three variables (temperature, humidity and altitude). Each would have an influence on each of the RGB values respectively, meaning cold high points would be blue and low hot places would be more desert colored.
 

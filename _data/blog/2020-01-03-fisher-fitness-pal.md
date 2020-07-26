@@ -13,17 +13,15 @@ tags:
 ---
 # FisherFitnessPal
 
-FisherFitnessPal is my very own fitness app, originally developed for my college coursework it is my first fully fledged mobile application that encompasses a variety of fitness and dietary tracking functionalities It was built in around 3 months using Xamarin Forms and has been extensively documented as required for my coursework.
+FisherFitnessPal is my very own fitness app, originally developed for my college coursework it is my first fully fledged mobile application that encompasses a variety of fitness and dietary tracking functionalities It was built in around 3 months using Xamarin Forms and has been **extensively documented** as required for my coursework.
 
 
 
-##Link
+##[Development Log](https://drive.google.com/file/d/1iVMKtxMRiI9cwQALvAcNH1z4ncEgsVTA/view?usp=sharing)
 
-[https://drive.google.com/file/d/1iVMKtxMRiI9cwQALvAcNH1z4ncEgsVTA/view?usp=sharing](https://drive.google.com/file/d/1iVMKtxMRiI9cwQALvAcNH1z4ncEgsVTA/view?usp=sharing)
+As explainined in the documentation, FisherFitnessPal is an all-round fitness tracker that aims to combine functionality from the most popular existing solutions. Users can track the foods they eat, analyse their macro/micronutrient intakes, monitor weight over time and are suggested caloric manipulations based on their current weight trend to meet their fitness goals, as well as tracking their workouts and strength over time to ensure progress is made and the user is able to meet their fitness goals. 
 
-As explainined in the documentation, FisherFitnessPal is an all-round fitness tracker, capable of tracking food, weight and strength-focused workouts over time to ensure progress is made and the user is able to meet their fitness goals. 
-
-I achieved this by splitting the development of FFP into those three different functionalities, implementing them fully before moving onto the next.
+I achieved this by splitting the development of FisherFitnessPal into those three different functionalities, implementing them fully before moving onto the next, this helped break down the problem as I learn't and could re-use design solutions from earlier sections of the application which sped the development significantly.
 
 ##Calorie Tracking
 ![diary](/assets/ffp_food_diary.png)![calorie tracking](/assets/ffp_calorie_tracking.png)
